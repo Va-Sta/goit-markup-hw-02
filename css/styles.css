@@ -10,6 +10,10 @@ ul {
 
 a {
   text-decoration: none;
+
+  button {
+    cursor: pointer;
+  }
 }
 
 .visually-hidden {
@@ -26,7 +30,7 @@ a {
   overflow: hidden;
 }
 
-.page-header {
+.site-header {
   background: #fff;
 }
 .header-logo {
@@ -119,12 +123,6 @@ a {
   background: #404bbf;
 }
 
-.features {
-}
-.features-list {
-}
-.features-item {
-}
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -150,13 +148,11 @@ a {
   text-align: center;
   color: #2e2f42;
 }
-.team-list {
-}
+
 .team-item {
   background: #fff;
 }
-.team-image {
-}
+
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -173,8 +169,6 @@ a {
   line-height: 1.5;
 }
 
-.portfolio {
-}
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
@@ -183,12 +177,7 @@ a {
   text-align: center;
   color: #2e2f42;
 }
-.portfolio-list {
-}
-.portfolio-item {
-}
-.portfolio-image {
-}
+
 .portfolio-subtitle {
   font-weight: 500;
   font-size: 20px;
